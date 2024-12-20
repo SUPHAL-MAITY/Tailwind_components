@@ -3,6 +3,7 @@ import Button from "./components/Button";
 
 import "./App.css";
 import Modal from "./components/Modal";
+import SidebarWithNavbar from "./components/SidebarWithNavbar";
 
 
 function App() {
@@ -12,7 +13,10 @@ function App() {
   return (
     <>
    
-   <Modal/>
+   <SidebarWithNavbar/>
+
+   {/* <Modal/> */}
+   
      
     </>
   );
