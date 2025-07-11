@@ -5,6 +5,7 @@ import "./App.css";
 import Modal from "./components/Modal";
 import SidebarWithNavbar from "./components/SidebarWithNavbar";
 import Tooltip from "./components/Tooltip";
+import FinalForm from "./components/MultiStepForm/FinalForm";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <>
+    <FinalForm/>
     {/* <Tooltip/> */}
    
    {/* <SidebarWithNavbar/> */}
