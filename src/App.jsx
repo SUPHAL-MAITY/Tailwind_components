@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <Tooltip/>
+    {/* <Tooltip/> */}
    
    {/* <SidebarWithNavbar/> */}
 
